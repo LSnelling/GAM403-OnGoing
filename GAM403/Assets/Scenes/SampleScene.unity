@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 455039271}
   - component: {fileID: 455039275}
   - component: {fileID: 455039276}
+  - component: {fileID: 455039277}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -400,7 +401,28 @@ MonoBehaviour:
   playerSpeed: 0.5
   speedBurst: 2
   player: Luke
+  healthbonus: 6
   starting: {x: 9, y: 1, z: 4}
+--- !u!114 &455039277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455039270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e59095655ab8f4e890212d3b4ccd7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammo: 999999999
+  heath: 100
+  accuracy: 15.5
+  playerSpeed: 0.5
+  speedBurst: -0.01
+  player: Luke
+  healthbonus: 6
+  starting: {x: 0, y: 0, z: 0}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
